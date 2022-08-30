@@ -20,37 +20,45 @@ use Illuminate\Support\Facades\Route;
 
 //start  อาจารย์สา//
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
-Route::get('/about', function () {
-    return ('หน้าเกี่ยวกับเรา');
-});
+// Route::get('/about', function () {
+//     return ('หน้าเกี่ยวกับเรา');
+// });
+
+Route::get('/', [App\Http\Controllers\HomePromoteController::class, 'index'])->name('promotepage.home');
+
+Route::get('/about', [App\Http\Controllers\AboutPromoteController::class, 'index'])->name('promotepage.about');
+
+Route::get('/shop', [App\Http\Controllers\ShopPromoteController::class, 'index'])->name('promotepage.shop');
+
+Route::get('/portfolio', [App\Http\Controllers\PortfolioPromoteController::class, 'index'])->name('promotepage.portfolio');
+
+Route::get('/contact', [App\Http\Controllers\ContactPromoteController::class, 'index'])->name('promotepage.contact');
 
 
-Auth::routes();
-
-//profile//
+// //profile//
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
-//admin index//
+// //admin index//
 Route::get('/admin/index',[HomeController::class, 'admin'])->name('admin');
 
-//user//
+// //user//
 Route::get('/admin/user/index',[Usercontroller::class, 'index'])->name('user.index');
 Route::get('/admin/user/edit/{id}',[Usercontroller::class, 'edit'])->name('user.edit');
 Route::post('/admin/user/update/{id}',[Usercontroller::class, 'update'])->name('user.update');
 Route::get('/admin/user/delete/{id}',[Usercontroller::class, 'delete'])->name('user.delete');
-//category//
+// //category//
 Route::get('/admin/category/index',[Categorycontroller::class, 'index'])->name('category.index');
 Route::get('/admin/category/create',[Categorycontroller::class, 'createform'])->name('category.create');
 
-//product//
+// //product//
 Route::get('/admin/product/index',[Productcontroller::class, 'index'])  ->name('product.index');
 Route::get('/admin/product/create',[Productcontroller::class, 'createform'])->name('product.create');
 
-//end อาจารย์สา//
+// end อาจารย์สา//
 
 
 // //start promote อาจารย์เดียร//

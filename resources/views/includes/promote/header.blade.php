@@ -22,14 +22,37 @@
                             </div>
 
                             <!-- Top Header Content -->
+
+
                             <div class="top-header-meta d-flex">
                                 <!-- Language Dropdown -->
+
                                 <!-- Login -->
+
+                                @if (Route::has('login'))
+                                    @auth
                                 <div class="login">
-                                    <a href="#"><i class="fa fa-user" aria-hidden="true"></i> <span>Login</span></a>
+                                    <a href="{{ url('/home') }}"><i class="fa fa-user" aria-hidden="true"></i> <span>Admin</span></a>
                                 </div>
+                                @else
                                 <!-- Cart -->
+
+                                @if (Route::has('login'))
+                                <div class="login">
+                                    <a href="{{ route('login') }}"><i class="fa fa-user" aria-hidden="true"></i> <span>Login</span></a>
+                                </div>
+
+                                <div class="login">
+                                    <a href="{{ route('register') }}"><i class="fa fa-user" aria-hidden="true"></i> <span>register</span></a>
+                                </div>
+                                @endif
+                                       @endauth
+                                @endif
+
                             </div>
+
+
+
                         </div>
                     </div>
                 </div>
@@ -62,32 +85,32 @@
                             <!-- Navbar Start -->
                             <div class="classynav">
                                 <ul>
-                                    <li><a href="index.php">หน้าแรก</a></li>
-                                    <li><a href="about.php">About</a></li>
+                                    <li><a href="{{ url('/') }}">หน้าแรก</a></li>
+                                    <li><a href="{{ url('/about') }}">About</a></li>
                                     <li><a href="#">Pages</a>
                                         <ul class="dropdown">
                                             <li><a href="index.php">Home</a></li>
                                             <li><a href="about.php">About</a></li>
-                                            <li><a href="shop.php">Shop</a>
+                                            <li><a href="{{ url('/shop') }}">Shop</a>
                                                 <ul class="dropdown">
-                                                    <li><a href="shop.php">Shop</a></li>
+                                                    <li><a href="{{ url('/shop') }}">Shop</a></li>
                                                     <li><a href="shop-details.php">Shop Details</a></li>
                                                     <li><a href="cart.php">Shopping Cart</a></li>
                                                     <li><a href="checkout.php">Checkout</a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="portfolio.php">Portfolio</a>
+                                            <li><a href="{{ url('/portfolio') }}">Portfolio</a>
                                                 <ul class="dropdown">
                                                     <li><a href="portfolio.php">Portfolio</a></li>
                                                     <li><a href="single-portfolio.php">Portfolio Details</a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="contact.php">Contact</a></li>
+                                            <li><a href="{{ url('/contact') }}">Contact</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="shop.php">Shop</a></li>
-                                    <li><a href="portfolio.php">Portfolio</a></li>
-                                    <li><a href="contact.php">Contact</a></li>
+                                    <li><a href="{{ url('/shop') }}">Shop</a></li>
+                                    <li><a href="{{ url('/portfolio') }}">Portfolio</a></li>
+                                    <li><a href="{{ url('/contact') }}">Contact</a></li>
                                 </ul>
 
                                 <!-- Search Icon -->

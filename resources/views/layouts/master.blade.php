@@ -51,7 +51,7 @@
 <!--===============================================================================================-->
 	<script src="{{ asset('admin/vendor/countdowntime/countdowntime.js') }}"></script>
 <!--===============================================================================================-->
-	<script src="{{ asset('admin/js/main.js')}}"></script>
+	<script src="{{ asset('admin/js/main.js') }}"></script>
 
 </body>
 </html>

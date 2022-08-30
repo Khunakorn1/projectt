@@ -26,7 +26,7 @@
                                   <td>{{ $users->address }}</td>
                                   <td>{{ $users->email }}</td>
                                   <td>{{ $users->phone }}</td>
-                                  <td>{{ $users->create_at }}</td>
+                                  <td>{{ $users->created_at }}</td>
                                   <td>{{ $users->updated_at }}</td>
                                   <td>
                                     <a href="{{ route('user.edit',$users->id) }}"><i class='bx bxs-edit'>Edit</i></a>
