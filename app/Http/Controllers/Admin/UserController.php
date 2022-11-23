@@ -5,11 +5,13 @@ namespace App\Http\Controllers\Admin;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\User;
+Use Alert;
+
 
 class UserController extends Controller
 {
     public function index (){
-       $user = User::all();
+       $user = User::Paginate(4);
         return view('admin.user.index',compact('user'));
     }
 
@@ -25,13 +27,15 @@ class UserController extends Controller
         $user->email = $request->email;
         $user->phone = $request->phone;
         $user->save();
+        toast('แก้ไขข้อมูลสำเร็จ','success');
         return redirect()->route('user.index');
     }
 
     public function delete($id){
         $user = User::find($id);
         $user::destroy($id);
+        toast('ลบข้อมูลสำเร็จ','success');
         return redirect()->route('user.index');
     }
 
-}   
+}

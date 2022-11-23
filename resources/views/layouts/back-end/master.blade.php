@@ -23,6 +23,7 @@
 </head>
 
 <body id="page-top">
+@include('sweetalert::alert')
 
     <!-- Page Wrapper -->
     <div id="wrapper">
@@ -69,20 +70,21 @@
                     <span>Product</span></a>
             </li>
 
+            <li class="nav-item">
+                <a class="nav-link" href="{{ route('content.index') }}">
+                    <i class="fas fa-fw fa-chart-area"></i>
+                    <span>content</span></a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="{{ route('about.index') }}">
+                    <i class="fas fa-fw fa-chart-area"></i>
+                    <span>about</span></a>
+            </li>
+
 
             <!-- Nav Item - Charts -->
-            <li class="nav-item">
-                <a class="nav-link" href="charts.html">
-                    <i class="fas fa-fw fa-chart-area"></i>
-                    <span>Charts</span></a>
-            </li>
 
-            <!-- Nav Item - Tables -->
-            <li class="nav-item">
-                <a class="nav-link" href="tables.html">
-                    <i class="fas fa-fw fa-table"></i>
-                    <span>Tables</span></a>
-            </li>
 
             <!-- Divider -->
             <hr class="sidebar-divider d-none d-md-block">

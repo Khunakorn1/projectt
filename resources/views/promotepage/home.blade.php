@@ -188,7 +188,7 @@
                             <div class="col-12 col-sm-6">
                                 <div class="single-benefits-area">
                                     <img src="{{ asset('template/promote/img/core-img/b1.png') }}" alt="">
-                                    <h5>Quality Products</h5>
+                                    <h5>Example</h5>
                                     <p>Intiam eu sagittis est, at commodo lacini libero. Praesent dignissim sed odio vel aliquam manta lagorn.</p>
                                 </div>
                             </div>
@@ -242,8 +242,7 @@
                 <div class="col-12">
                     <!-- Section Heading -->
                     <div class="section-heading text-center">
-                        <h2>OUR PORTFOLIO</h2>
-                        <p>We devote all of our experience and efforts for creation</p>
+                        <h2>Example</h2>
                     </div>
                 </div>
             </div>
@@ -388,20 +387,17 @@
                             <div class="row align-items-center">
                                 <div class="col-12 col-md-6">
                                     <div class="testimonial-thumb">
-                                        <img src="{{ asset('template/promote/img/bg-img/13.jpg') }}" alt="">
+                                        <img src="{{ asset('template/promote/img/bg-img/13.png') }}" alt="">
                                     </div>
                                 </div>
                                 <div class="col-12 col-md-6">
                                     <div class="testimonial-content">
                                         <!-- Section Heading -->
                                         <div class="section-heading">
-                                            <h2>TESTIMONIAL</h2>
-                                            <p>Some kind words from clients about Alazea</p>
                                         </div>
-                                        <p>“Alazea is a pleasure to work with. Their ideas are creative, they came up with imaginative solutions to some tricky issues, their landscaping and planting contacts are equally excellent we have a beautiful but also manageable garden as a result. Thank you!”</p>
                                         <div class="testimonial-author-info">
-                                            <h6>Mr. Nick Jonas</h6>
-                                            <p>CEO of NAVATECH</p>
+                                            <h4>นายณัฏฐภัทร เชาวนเลิศ</h4>
+                                            <h4>Mr.Khunakorn  Phobaingam</h4>
                                         </div>
                                     </div>
                                 </div>
@@ -420,13 +416,10 @@
                                     <div class="testimonial-content">
                                         <!-- Section Heading -->
                                         <div class="section-heading">
-                                            <h2>TESTIMONIAL</h2>
-                                            <p>Some kind words from clients about Alazea</p>
                                         </div>
-                                        <p>“Alazea is a pleasure to work with. Their ideas are creative, they came up with imaginative solutions to some tricky issues, their landscaping and planting contacts are equally excellent we have a beautiful but also manageable garden as a result. Thank you!”</p>
                                         <div class="testimonial-author-info">
-                                            <h6>Mr. Nazrul Islam</h6>
-                                            <p>CEO of NAVATECH</p>
+                                            <h4>นายคุณากร  โพธิ์ใบงาม</h4>
+                                            <h4>Mr.Khunakorn  Phobaingam</h4>
                                         </div>
                                     </div>
                                 </div>
@@ -438,20 +431,17 @@
                             <div class="row align-items-center">
                                 <div class="col-12 col-md-6">
                                     <div class="testimonial-thumb">
-                                        <img src="{{ asset('template/promote/img/bg-img/15.jpg') }}" alt="">
+                                        <img src="{{ asset('template/promote/img/bg-img/15.png') }}" alt="">
                                     </div>
                                 </div>
                                 <div class="col-12 col-md-6">
                                     <div class="testimonial-content">
                                         <!-- Section Heading -->
                                         <div class="section-heading">
-                                            <h2>TESTIMONIAL</h2>
-                                            <p>Some kind words from clients about Alazea</p>
                                         </div>
-                                        <p>“Alazea is a pleasure to work with. Their ideas are creative, they came up with imaginative solutions to some tricky issues, their landscaping and planting contacts are equally excellent we have a beautiful but also manageable garden as a result. Thank you!”</p>
                                         <div class="testimonial-author-info">
-                                            <h6>Mr. Jonas Nick</h6>
-                                            <p>CEO of NAVATECH</p>
+                                            <h4>นายธนกร  พันธุ์วงษุ์</h4>
+                                            <h4>Mr.Khunakorn  Phobaingam</h4>
                                         </div>
                                     </div>
                                 </div>

@@ -34,7 +34,6 @@
                 <!-- Contact Thumbnail -->
                 <div class="col-12 col-md-6">
                     <div class="contact--thumbnail">
-                        <img src="{{ asset('template/promote/img/bg-img/25.jpg') }}" alt="">
                     </div>
                 </div>
 
@@ -46,10 +45,9 @@
                     <!-- Contact Information -->
                     <div class="contact-information">
                             <p><span>Address:</span>อยุธยา</p>
-                            <p><span>Phone:</span>099-333-4545</p>
+                            <p><span>Phone:</span>099-335-9001</p>
                             <p><span>Email:</span> Nuuhamtaro@gmail.com</p>
                             <p><span>Open hours:</span> Mon - Sun: 8 AM to 9 PM</p>
-                            <p><span>Happy hours:</span> Sat: 2 PM to 4 PM</p>
                     </div>
                 </div>
             </div>
