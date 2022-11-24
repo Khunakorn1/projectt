@@ -25,7 +25,6 @@ class AboutController extends Controller
     }
 
     public function Random()
-
     {
         $length = 10;
         $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
@@ -40,8 +39,6 @@ class AboutController extends Controller
 
     }
 
-
-
     public function insert(Request $request, Abouts $about)
     {
 
@@ -53,10 +50,10 @@ class AboutController extends Controller
 
         if( !empty($request->file('image')) )
         {
-
             $imageName = $this->Random().'.'.$request->image->extension();
-            $request->image->storeAs('about', $imageName);
-
+            $file = $request->file('image');
+            $file->move(public_path('about'), $imageName);
+            // $request->image->storeAs('about', $imageName);
         }else{
             $imageName = null;
         }

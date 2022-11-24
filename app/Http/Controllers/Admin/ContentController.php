@@ -41,13 +41,16 @@ class ContentController extends Controller
     {
         return view('admin.content.create');
     }
-public function insert(Request $request, Contents $content)
+
+    public function insert(Request $request, Contents $content)
     {
 
         if( !empty($request->file('image')) )
         {
             $imageName = $this->Random().'.'.$request->image->extension();
-            $request->image->storeAs('contents', $imageName);
+            $file = $request->file('image');
+            $file->move(public_path('contents'), $imageName);
+            // $request->image->storeAs('contents', $imageName);
         }else{
             $imageName = null;
         }

@@ -89,7 +89,7 @@
                             </div>
                             <!-- Content -->
                             <div class="service-content">
-                                <h5>ประโยชน์</h5>
+                                <h5>การดูแล</h5>
                                 <p></p>
                             </div>
                         </div>
@@ -114,7 +114,7 @@
                     <div class="alazea-video-area bg-overlay mb-100">
                         <img src="{{ asset('template/promote/img/bg-img/23.jpg') }}" alt="">
                         </a>
-                    </div>  
+                    </div>
                 </div>
             </div>
         </div>
@@ -128,11 +128,9 @@
                 <div class="col-12 col-lg-5">
                     <!-- Section Heading -->
                     <div class="section-heading">
-                        <h2>ABOUT US</h2>
-                        <p>We are leading in the plants service fields.</p>
+                        <h2>ข้อมูลการเลือกซื้อ</h2>
+                        <p>ตารางการเลือกซื้อของต่างๆ</p>
                     </div>
-                    <p>Quisque orci quam, vulputate non commodo finibus, molestie ac ante. Duis in sceleri quesem. Nulla sit amet varius nunc. Maecenas dui, tempeu ullam corper in.</p>
-
                     <!-- Progress Bar Content Area -->
                     <div class="alazea-progress-bar mb-50">
                         <!-- Single Progress Bar -->
@@ -397,7 +395,7 @@
                                         </div>
                                         <div class="testimonial-author-info">
                                             <h4>นายณัฏฐภัทร เชาวนเลิศ</h4>
-                                            <h4>Mr.Khunakorn  Phobaingam</h4>
+                                            <h4>Mr.Nattapat Chaowanalert</h4>
                                         </div>
                                     </div>
                                 </div>
@@ -441,7 +439,7 @@
                                         </div>
                                         <div class="testimonial-author-info">
                                             <h4>นายธนกร  พันธุ์วงษุ์</h4>
-                                            <h4>Mr.Khunakorn  Phobaingam</h4>
+                                            <h4>Mr.Thanakorn Phunwong/h4>
                                         </div>
                                     </div>
                                 </div>
@@ -463,7 +461,7 @@
                     <!-- Section Heading -->
                     <div class="section-heading text-center">
                         <h2>NEW ARRIVALS</h2>
-                        <p>We have the latest products, it must be exciting for you</p>
+                        <p></p>
                     </div>
                 </div>
             </div>
@@ -491,7 +489,7 @@
                             <a href="shop-details.php">
                                 <p>Cactus Flower</p>
                             </a>
-                            <h6>$10.99</h6>
+                            <h6>10.99</h6>
                         </div>
                     </div>
                 </div>
@@ -513,7 +511,7 @@
                             <a href="shop-details.php">
                                 <p>Cactus Flower</p>
                             </a>
-                            <h6>$10.99</h6>
+                            <h6>10.99</h6>
                         </div>
                     </div>
                 </div>
@@ -535,7 +533,7 @@
                             <a href="shop-details.php">
                                 <p>Cactus Flower</p>
                             </a>
-                            <h6>$10.99</h6>
+                            <h6>10.99</h6>
                         </div>
                     </div>
                 </div>
@@ -561,7 +559,7 @@
                             <a href="shop-details.php">
                                 <p>Cactus Flower</p>
                             </a>
-                            <h6>$10.99</h6>
+                            <h6>10.99</h6>
                         </div>
                     </div>
                 </div>
@@ -583,7 +581,7 @@
                     <!-- Section Heading -->
                     <div class="section-heading">
                         <h2>GET IN TOUCH</h2>
-                        <p>Send us a message, we will call back later</p>
+
                     </div>
                     <!-- Contact Form Area -->
                     <div class="contact-form-area mb-100">
@@ -620,11 +618,11 @@
                 <div class="col-12 col-lg-6">
                     <!-- Google Maps -->
                     <div class="map-area mb-100">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22236.40558254599!2d-118.25292394686001!3d34.057682914027104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2z4Kay4Ka4IOCmj-CmnuCnjeCmnOCnh-CmsuCnh-CmuCwg4KaV4KeN4Kav4Ka-4Kay4Ka_4Kar4KeL4Kaw4KeN4Kao4Ka_4Kav4Ka84Ka-LCDgpq7gpr7gprDgp43gppXgpr_gpqgg4Kav4KeB4KaV4KeN4Kak4Kaw4Ka-4Ka34KeN4Kaf4KeN4Kaw!5e0!3m2!1sbn!2sbd!4v1532328708137" allowfullscreen></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3867.017617333505!2d100.2537463254026!3d14.252194739033206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sth!2sth!4v1669256975751!5m2!1sth!2sth" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- ##### Contact Area End ##### -->  
+    <!-- ##### Contact Area End ##### -->
 @stop

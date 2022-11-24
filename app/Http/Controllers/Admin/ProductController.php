@@ -15,7 +15,7 @@ class ProductController extends Controller
 {
 
     private $path_stroage = "admin/contents";
-    
+
     public function Random()
 
     {
@@ -52,12 +52,14 @@ class ProductController extends Controller
         //    "detail" = $request->detail,
         //    "price" = $request->price,
         //    "category_id" = $request->
-       
+
 
         if( !empty($request->file('image')) )
         {
             $imageName = $this->Random().'.'.$request->image->extension();
-            $request->image->storeAs('products', $imageName);
+            $file = $request->file('image');
+            $file->move(public_path('products'), $imageName);
+            // $request->image->storeAs('products', $imageName);
         }else{
             $imageName = null;
         }
